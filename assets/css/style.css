@@ -1,0 +1,260 @@
+
+
+/** basic page styling **/
+/*--------------------*/
+
+* {
+	box-sizing: border-box;
+	text-align: center;
+}
+
+body {
+	font-family: 'Encode Sans Expanded', sans-serif;
+	background: url("https://blog.spoongraphics.co.uk/wp-content/uploads/2012/textures/18.jpg");
+}
+
+header {
+	padding: 0;
+	margin-bottom: 0;
+	color: #333;
+	background: #eee;
+	height: 65px;
+}
+
+a.gray {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+
+a:link {
+	color: #666;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+a:focus {
+	color: #AA8C8C;
+}
+
+a:active {
+	color: black;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.text1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 20px;
+	letter-spacing: 1px;
+}
+
+#style1 {
+	width: 700px;
+	height: 400px;
+}
+
+h1.white {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+
+h1.dark {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	text-align: left;
+	color: #666;
+}
+
+hr.flat1 {
+    border: 0;
+    height: 1px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background: #333;
+}
+
+hr.flat2 {
+    border: 0;
+    height: 1px;
+    margin-top: 0;
+    background: #666;
+}
+
+p {
+	text-align: left;
+	font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+/** menu styling **/
+/*--------------------*/
+
+.nav-container {
+	width: 750px;
+	margin: 0 auto;
+}
+
+#main-nav {
+	margin-top: 0;
+	width: 100%;
+	height: 65px;
+	background: #eee;
+	padding: 0;
+}
+
+.name {
+	margin-left: 0;
+	margin-top: 0;
+	padding: 25px;
+	float: left;
+	width: 165px;
+	height: 65px;
+	color: white;
+	background: #4aaaa5;
+}
+
+#about, #portfolio, #contact {
+	float: right;
+    text-align: center;
+    padding-top: 25px;
+	width: 75px;
+	height: 65px;
+	margin-top: 0;
+}
+
+/** box styling **/
+/*--------------------*/
+
+img.small {
+	width: 200px;
+	float: left;
+    margin: 0 10px 5px 0;
+}
+
+.about-box {
+	width: 750px;
+	margin-top: 0;
+	margin: 0 auto;
+}
+
+.about-content {
+	margin-left: 0;
+	margin-top: 35px;
+	padding: 25px;
+	float: left;
+	width: 450px;
+	height: 520px;
+	background: #eee;
+}
+
+.port-content {
+	margin-left: 0;
+	margin-top: 35px;
+	padding: 25px;
+	float: left;
+	width: 450px;
+	height: 675px;
+	background: #eee;
+}
+
+
+/** social box styling **/
+/*--------------------*/
+
+.social-box {
+	margin-right: 0;
+	margin-top: 35px;
+	padding: 25px;
+	float: right;
+	width: 225px;
+	height: 150px;
+	background: #eee;
+}
+
+/*form stylying*/
+/*-------------------*/
+
+form {
+	    text-align: left;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+        text-align: left;
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/*portfolio gallery styling*/
+/*------------------------*/
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+/** footer styling **/
+/*--------------------*/
+
+footer {
+    background-color: #666;
+    color: #949494;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-top: 6px solid #4aaaa5 ;
+    padding: 40px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+}
